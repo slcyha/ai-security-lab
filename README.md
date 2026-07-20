@@ -51,14 +51,6 @@ docker compose up -d
 Test ortamına gidin:
 İşlem bitince tarayıcıdan http://localhost:5000 adresine girerek arayüze ulaşabilirsiniz.
 
-```markdown
-**HEDEFLENEN GÜVENLİK TESTLERİ**
-
-Bu laboratuvar ortamı başarıyla izole edildikten sonra, aşağıdaki LLM zafiyetleri üzerine ofansif güvenlik testleri gerçekleştirilecektir:
-*   **Prompt Injection:** Modelin orijinal talimatlarını manipüle etme.
-*   **Jailbreak:** Güvenlik filtrelerini aşarak sınırlandırılmış yanıtları tetikleme.
-*   **Information Disclosure:** Modelin eğitim verisinde kalmış olabilecek hassas bilgileri sızdırma denemeleri.
-
 
 <img width="860" height="418" alt="Ekran görüntüsü 2026-07-20 180927" src="https://github.com/user-attachments/assets/1573d43b-87d7-4f99-b7fa-a193287577e4" />
 
@@ -67,3 +59,13 @@ Bu laboratuvar ortamı başarıyla izole edildikten sonra, aşağıdaki LLM zafi
 
 
 <img width="1270" height="620" alt="Ekran görüntüsü 2026-07-20 180903" src="https://github.com/user-attachments/assets/119fdc72-4604-4632-ac94-7d271ff9cf14" />
+
+
+```markdown
+**HEDEFLENEN GÜVENLİK TESTLERİ**
+
+Bu laboratuvar ortamı başarıyla izole edildikten sonra, aşağıdaki LLM zafiyetleri üzerine ofansif güvenlik testleri gerçekleştirilecektir:
+*   **Prompt Injection:** Modelin orijinal talimatlarını manipüle etme.
+*   **Jailbreak:** Güvenlik filtrelerini aşarak sınırlandırılmış yanıtları tetikleme.
+*   **Information Disclosure:** Modelin eğitim verisinde kalmış olabilecek hassas bilgileri sızdırma denemeleri.
+
