@@ -1,4 +1,4 @@
-<img width="860" height="418" alt="Ekran görüntüsü 2026-07-20 180927" src="https://github.com/user-attachments/assets/1573d43b-87d7-4f99-b7fa-a193287577e4" />
+
 Local AI Security Lab Kurulum
 
 Bu repoda, yapay zeka güvenliği ve LLM zafiyetlerini (Prompt Injection vb.) test etmek için kurduğum yerel laboratuvarın adım adım kurulum sürecini ve karşılaştığım engelleri nasıl aştığımı paylaşıyorum. Projede Damn Vulnerable AI Application (DVAIA) ve Docker altyapısını kullandım.
