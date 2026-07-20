@@ -1,30 +1,30 @@
-
-Local AI Security Lab Kurulum
+LOCAL Aİ SECURİTY LAB KURULUMU
 
 Bu repoda, yapay zeka güvenliği ve LLM zafiyetlerini (Prompt Injection vb.) test etmek için kurduğum yerel laboratuvarın adım adım kurulum sürecini ve karşılaştığım engelleri nasıl aştığımı paylaşıyorum. Projede Damn Vulnerable AI Application (DVAIA) ve Docker altyapısını kullandım.
 
-Ön Hazırlık
+ÖN HAZIRLIK
 Projeyi çalıştırmak için önce şu iki aracı kurdum:
 
 *Git: İnternetteki repoları terminalden çekebilmek için. (git-scm.com)
 
 *Docker Desktop: Lab ortamını bilgisayarıma zarar vermeden, izole bir konteyner içinde çalıştırmak için.
  
-Kurulum Öncesi Yaşadığım Engeller ve Çözümleri
+YAŞADIĞIM SORUNLAR VE ÇÖZÜMLERİ 
+
 Sistemi sıfırdan kurarken ufak pürüzlerle karşılaştım. Sonradan kuracaklar için notlar:
 
-Sanallaştırma Hatası:
+-Sanallaştırma Hatası:
 Docker ilk açılışta donanımsal sanallaştırmanın kapalı olduğunu söyledi. Bilgisayarın BIOS ayarlarına girip Intel VT-X / AMD-V (SVM Mode) özelliğini aktif hale getirerek çözdüm.
 
-WSL 2 Eksikliği:
+-WSL 2 Eksikliği:
 Windows alt yapısının Linux konteynerlerini çalıştırabilmesi için gerekli olan WSL eksikti. Yönetici yetkisiyle açtığım PowerShell'de şu komutu çalıştırıp bilgisayarı yeniden başlattım:
 
-PowerShell
+-PowerShell
 wsl --install
 Eksik .env Dosyası:
 Docker'ı ilk ayağa kaldırmaya çalıştığımda .env dosyasını bulamadığı için hata verdi. Klasör içindeki örnek şablonu kopyalayarak gerekli çevre dosyasını oluşturdum.
 
-Adım Adım Kurulum
+ADIM ADIM KURULUM
 Projeyi kendi bilgisayarınızda çalıştırmak için izlenecek adımlar:
 
 Repoyu klonlayın:
