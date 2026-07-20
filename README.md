@@ -11,7 +11,9 @@ Projeyi çalıştırmak için önce şu iki aracı kurdum:
 *Docker Desktop: Lab ortamını bilgisayarıma zarar vermeden, izole bir konteyner içinde çalıştırmak için.
  
 
+
 **YAŞADIĞIM SORUNLAR VE ÇÖZÜMLERİ**
+
 
 
 Sistemi sıfırdan kurarken ufak pürüzlerle karşılaştım. Sonradan kuracaklar için notlar:
