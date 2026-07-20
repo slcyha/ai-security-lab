@@ -3,7 +3,7 @@ Local AI Security Lab Kurulum
 
 Bu repoda, yapay zeka güvenliği ve LLM zafiyetlerini (Prompt Injection vb.) test etmek için kurduğum yerel laboratuvarın adım adım kurulum sürecini ve karşılaştığım engelleri nasıl aştığımı paylaşıyorum. Projede Damn Vulnerable AI Application (DVAIA) ve Docker altyapısını kullandım.
 
-# 1. Ön Hazırlık
+Ön Hazırlık
 Projeyi çalıştırmak için önce şu iki aracı kurdum:
 
 *Git: İnternetteki repoları terminalden çekebilmek için. (git-scm.com)
